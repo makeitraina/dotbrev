@@ -24,8 +24,11 @@ Here we can specify which ports we want publicly accessible. Currently by defaul
 For example, if we run a React app, we may want to make 3000 open to communicate with our backend, or to share a public link of our project.
 
 Example use cases:
+
 Testing (sending requests through Postman)
+
 Frontend - backend connection (sending and receiving requests)
+
 Production deploys (post a public url of your website)
 
 #### `.brev/logs`
