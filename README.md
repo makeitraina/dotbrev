@@ -25,11 +25,9 @@ For example, if we run a React app, we may want to make 3000 open to communicate
 
 Example use cases:
 
-Testing (sending requests through Postman)
-
-Frontend - backend connection (sending and receiving requests)
-
-Production deploys (post a public url of your website)
+- Testing (sending requests through Postman)
+- Frontend - backend connection (sending and receiving requests)
+- Production deploys (post a public url of your website)
 
 #### `.brev/logs`
 This is where we keep logs that occur when running the setup script and cloning repositories (such as this one, and your project repository if you are creating or joining a project from git).
