@@ -19,9 +19,9 @@ You can pre-download VSCode extensions and globally install software like zsh, l
 Careful not to place too many software packages in here (like Node v14, Python, or Go), and instead place that in your project's `.brev`. This way different versions of your software will not conflict, and others can clone your environment.
 
 #### `.brev/ports.yaml`
-Here we can specify which ports we want publicly accessible. Currently by default any connection to your project is password protected.
+Here we can specify which ports we want publicly accessible. Currently by default any connection to your project is password protected. Although this is secure, it prevents testing routes and connecting different services (like a backend and frontend).
 
-For example, if we run a React app, we may want to make 3000 open to communicate with our backend, or to share a public link of our project.
+For example, if we run a React app would want to expose port 3000, so we can use 3000-name-user-org.brev.sh as an API root to communicate with our backend.
 
 Example use cases:
 
