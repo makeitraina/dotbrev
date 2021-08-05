@@ -1,14 +1,15 @@
-# Here we can specify which ports we want publicly accessible. Currently by default
-# any connection to your service is password protected.
-
-# For example, if we run a React app, we may want to make 3000 open
-# to communicate with our backend, or to share a public link of our project.
-
-# USE CASES:
-# Testing (sending requests through Postman)
-# Frontend - backend connection (sending and receiving requests)
-# Production deploys (post a public url of your website)
+#############################################################################################
+##### Expose your port publicly here so other people or services can use it.            #####
+#####                                                                                   #####     
+##### ex. You want to connect a frontend to a backend. Run the project you want to      #####
+##### expose and add its port here. This service can be accessed at                     #####
+##### 3000-projectName-user-org.brev.sh.                                                #####     
+#####                                                                                   #####     
+##### Read more here: https://github.com/brevdev/dotbrev/blob/main/README.md            #####     
+#############################################################################################
 
 version: 1.0
 ports:
-  # - "3000" # UNCOMMENT THIS LINE TO MAKE THE PORT PUBLIC
+  # - "3000" 
+  # - "5000"
+  # - "8000"

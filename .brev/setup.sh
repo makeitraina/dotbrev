@@ -1,30 +1,8 @@
 #!/bin/bash
 
-##### Essential Linux Installs #####
-sudo apt-get install -y build-essential
-
-##### Setting up VSCode defaults #####
-mkdir -p /home/brev/.local/share/code-server/User
-cp .vscode/settings.json /home/brev/.local/share/code-server/User/settings.json
-
-##### Your VSCode Extensions (EDIT) #####
-# code-server --install-extension <EXTENSION_ID>
-
-##### Recommended VSCode Extensions #####
-# code-server --install-extension esbenp.prettier-vscode
-# code-server --install-extension dbaeumer.vscode-eslint
-# code-server --install-extension golang.go
-# code-server --install-extension ryanolsonx.solarized
-# code-server --install-extension ms-vscode.sublime-keybindings
-# code-server --install-extension tyriar.sort-lines
-# code-server --install-extension ms-azuretools.vscode-docker
-
-##### Zsh #####
-sudo apt-get install zsh -y
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
-echo "zsh" >> ~/.bashrc
-cat .brev/.bash_profile >> ~/.zshrc
-source ~/.zshrc
+################################################################################
+##### Specify software and dependencies that are required for this project #####
+################################################################################
 
 ##### Yarn #####
 # curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add
