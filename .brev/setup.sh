@@ -11,16 +11,15 @@ sudo apt-get upgrade -y
 ##### Yarn #####
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-sudo apt update
 sudo apt install -y yarn
 
 ##### Node v12.x + npm #####
-curl -fsSL https://rpm.nodesource.com/setup_12.x | sudo -E bash -
+curl -fsSL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
 ##### Intall golang 14.x #####
 wget https://golang.org/dl/go1.14.14.linux-amd64.tar.gz
-sudo rm -rf /usr/local/go && tar -C /usr/local -xzf go1.16.7.linux-amd64.tar.gz
+sudo rm -rf /usr/local/go && tar -C /usr/local -xzf go1.14.14.linux-amd64.tar.gz
 export PATH=$PATH:/usr/local/go/bin
 go version
 
