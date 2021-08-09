@@ -24,25 +24,25 @@ export PATH=$PATH:/usr/local/go/bin
 go version
 
 ##### Install vs-code extensions #####
-code --install-extension christian-kohler.npm-intellisense
-code --install-extension dbaeumer.vscode-eslint
-code --install-extension donjayamanne.githistory
-code --install-extension eriklynd.json-tools
-code --install-extension esbenp.prettier-vscode
-code --install-extension GitHub.copilot
-code --install-extension GitHub.vscode-pull-request-github
-code --install-extension golang.go
-code --install-extension mariomatheu.syntax-project-pbxproj
-code --install-extension mark-tucker.aws-cli-configure
-code --install-extension mikestead.dotenv
-code --install-extension mohsen1.prettify-json
-code --install-extension ms-azuretools.vscode-docker
-code --install-extension ms-toolsai.jupyter
-code --install-extension ms-vscode-remote.remote-containers
-code --install-extension msjsdiag.debugger-for-chrome
-code --install-extension mziyabo.vscode-codedeploy
-code --install-extension streetsidesoftware.code-spell-checker
-code --install-extension tberman.json-schema-validator
-code --install-extension ThreadHeap.serverless-ide-vscode
-code --install-extension TimVaneker.serverless-snippets
-code --install-extension zhuangtongfa.material-theme
+code-server --install-extension christian-kohler.npm-intellisense
+code-server --install-extension dbaeumer.vscode-eslint
+code-server --install-extension donjayamanne.githistory
+code-server --install-extension eriklynd.json-tools
+code-server --install-extension esbenp.prettier-vscode
+code-server --install-extension GitHub.copilot
+code-server --install-extension GitHub.vscode-pull-request-github
+code-server --install-extension golang.go
+code-server --install-extension mariomatheu.syntax-project-pbxproj
+code-server --install-extension mark-tucker.aws-cli-configure
+code-server --install-extension mikestead.dotenv
+code-server --install-extension mohsen1.prettify-json
+code-server --install-extension ms-azuretools.vscode-docker
+code-server --install-extension ms-toolsai.jupyter
+code-server --install-extension ms-vscode-remote.remote-containers
+code-server --install-extension msjsdiag.debugger-for-chrome
+code-server --install-extension mziyabo.vscode-codedeploy
+code-server --install-extension streetsidesoftware.code-spell-checker
+code-server --install-extension tberman.json-schema-validator
+code-server --install-extension ThreadHeap.serverless-ide-vscode
+code-server --install-extension TimVaneker.serverless-snippets
+code-server --install-extension zhuangtongfa.material-theme
