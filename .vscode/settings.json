@@ -1,0 +1,35 @@
+{
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {},
+  "[python]": {},
+  "eslint.packageManager": "yarn",
+  "[go]": {},
+  "go.formatTool": "goimports",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "workbench.colorTheme": "One Dark Pro",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.formatOnType": true,
+  "html.format.wrapLineLength": 0,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "go.lintTool": "golint",
+  "cSpell.userWords": ["Consts", "Formik", "Quickbooks", "SIGNUP"],
+  "window.zoomLevel": 1,
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": false,
+    "markdown": false
+  }
+}

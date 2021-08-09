@@ -4,6 +4,13 @@
 ##### Specify software and dependencies that are required for this project #####
 ################################################################################
 
+##### Essential Linux Installs #####
+sudo apt-get install -y build-essential
+
+##### Setting up VSCode defaults #####
+mkdir -p /home/brev/.local/share/code-server/User
+cp .vscode/settings.json /home/brev/.local/share/code-server/User/settings.json
+
 ##### Update and upgrade packages #####
 sudo apt-get update
 sudo apt-get upgrade -y
